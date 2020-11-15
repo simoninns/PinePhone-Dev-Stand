@@ -1,9 +1,9 @@
 # PinePhone Development Stand
-This project provides a 3D printable stand for the PinePhone.  The stand is designed with development and testing in mind - it is therefore strong and doesn't tip over when the phone's touch screen is used (unlike stands designed for charging only).  The stand also features side supports to prevent the phone from tipping when the power button is used and holes in the lower-back of the bracket for the speakers.  The base of the phone is raised around 6cm off the desk to ensure that all types of USB-C cables and connectors can fit easily without stressing the socket or cable.
+The PinePhone development stand is specifically designed for the PinePhone with software development and testing in mind.  The phone is held securely at a comfortable angle (for viewing and use of the touch screen) and will not tip over if the phone is used at the bottom or top of the screen.  In addition, the bracket has side supports to prevent the phone falling sideways when the power or volume buttons are used.  The lower edge of the phone is raised around 6cm by the stand to ensure that all types of USB-C cables and connectors can fit easily without stressing the socket or cable.  The base of the stand has indented guides for stick-on rubber feet (such as 3M Bumpon feet) which can be used to prevent the stand from sliding on the desk when pressing on the touch screen.
 
 Note: This project is GPLv3 open-source. The github repository for the model (containing the complete OpenSCAD project) can be found at https://github.com/simoninns/PinePhone-Dev-Stand
 
-<img src="/images/renders/complete_with_phone.png" width="800">
+<img src="/images/photos/PinePhone_Stand_1_s.jpg" width="800">
 
 # Overview
 
@@ -15,7 +15,9 @@ The project also includes a simple model of the PinePhone to assist with modelli
 
 Print both parts of the stand.  Run a small amount of super-glue into both recesses on the back of the phone bracket.  The press this into the stand (ensuring that the bracket and stand are the right way up).  Use a little pressure to hold in place for 30 seconds or until the glue is correctly set.
 
-<img src="/images/renders/complete.png" width="800">
+<img src="/images/photos/PinePhone_Stand_2_s.jpg" width="800">
+
+Guides are provided on the unside of the base for 13-14mm rubber feet (use 3M bumpon or similar).  Either 4 or 6 feet can be used depending on the desired level of stability.
 
 # Printing instructions
 
@@ -25,6 +27,8 @@ The model has been printed and tested on the Prusa MK3S/MMU2S printer using PETG
 
 The OpenSCAD source files provide a parameter interface that allows you to render either the whole model or the individual parts (ready for STL (or other 3D format) export).  This requires OpenSCAD 2019.05 or later.
 
+The base can be printed as-is on the print bed as the side parts do not need any support.  Print the bracket with the USB-C hole on the print bed.  No support is necessary for the bracket either.  All edges are angled (rather than rounded) to ensure simple slicing and printing of the shapes.
+
 ## Recommended print settings
 ### Stand
 * Number required: 1
@@ -32,7 +36,7 @@ The OpenSCAD source files provide a parameter interface that allows you to rende
 * Layer: 0.20mm (Quality)
 * Infill: 15%
 * Supports: None
-* Print time (approximate): Xh XXm
+* Print time (approximate): 6h 41m
 
 <img src="/images/renders/base.png" width="800">
 
@@ -42,7 +46,7 @@ The OpenSCAD source files provide a parameter interface that allows you to rende
 * Layer: 0.20mm (Quality)
 * Infill: 15%
 * Supports: None
-* Print time (approximate): Xh XXm
+* Print time (approximate): 3h 26m
 
 <img src="/images/renders/phone_bracket.png" width="800">
 
